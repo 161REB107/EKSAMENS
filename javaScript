@@ -1,0 +1,16 @@
+<HTML>
+<BODY>
+<H1 onclick="t('sekcija');">UZSPIED TE</H1>
+<H2 onclick="t(this)">Rolands</H2>
+<div id="sekcija" onclick="t(this)"> </div>
+</BODY>
+
+<script>
+function t(obj) {
+	var adr = document.getElementById(obj);
+	adr.innerHTML='CAAZERS';
+}
+</script>
+
+</HTML>
+
